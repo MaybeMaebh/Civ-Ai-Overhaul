@@ -1,0 +1,8 @@
+Using a complete maxmin tree is highly unfeasible however a robust scoring system and objective system with specialised trees, With things like movement possibly devolved and allowed to go for multiple turns where it isn't possible as much as this does mean more possibilities for each unit it means that there are much fewer items and so fewer total actions.
+
+	Different levels as problem
+At most steps an floating point feasibility output would be useful.
+	Victory Type/Defence
+Analysing feasibility of path to different victories as well as the risk of other players winning. Oftern combined with the Micro Goal section to see feasability
+	Science and Culture
+To measure the feasibility of such victories, progress in the science/culture tree,  Production of science/culture(+ that of potential new citrys/districts) as well as Any upcoming Technologies or Civics that might boost capabilitys( near technoligys that enable building consider potential placement. Far off unique just add value)
