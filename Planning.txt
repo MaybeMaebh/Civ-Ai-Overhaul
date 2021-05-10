@@ -1,8 +1,16 @@
 Using a complete maxmin tree is highly unfeasible however a robust scoring system and objective system with specialised trees, With things like movement possibly devolved and allowed to go for multiple turns where it isn't possible as much as this does mean more possibilities for each unit it means that there are much fewer items and so fewer total actions.
 
-	Different levels as problem
+Aditionally instead Of carfully whieghting Everything by optimising the algorivum through a Evolution type system whieghts can be tuned.
+
+	Seperating out the Game into several smaller problems
 At most steps an floating point feasibility output would be useful.
-	Victory Type/Defence
-Analysing feasibility of path to different victories as well as the risk of other players winning. Oftern combined with the Micro Goal section to see feasability
+	Victory Type
+Analysing feasibility of path to different victories as well as the risk of other players winning. Oftern combined with the Micro Goal section to see feasability. Also use variations where possible 
 	Science and Culture
-To measure the feasibility of such victories, progress in the science/culture tree,  Production of science/culture(+ that of potential new citrys/districts) as well as Any upcoming Technologies or Civics that might boost capabilitys( near technoligys that enable building consider potential placement. Far off unique just add value)
+To measure the feasibility of such victories, progress in the science/culture tree,  Production of science/culture/Tourism(+ that of potential new citrys/districts) as well as Any upcoming Technologies or Civics that might boost capabilitys( near technoligys that enable building consider potential placement. Far off unique just add value), Production of Scientific milestornes/Potential.
+	Domination
+Look at military strength (seperated by type where possible), Production capabilitys(And potential citys) by type, as Well as Technoligys and Civics comming up/Avalible) and rougth logistics needed to attack each city from eachover to consider potential invasion path.
+	Religeon
+Look at Faith production, a city to city spread map from wich potential spread can be calculated, taking into acount Buildings ect., Potential and existant Technoligys and Civs, Use of Faith to spread religeon
+	Diplomatic
+Look at Diplomatic Favor production, Things to gain good opinion with other players , Victory Points, Diplomatic visobility on other Civ's(including Potential), Special Wonder production, City state suzerainship, and envoy production, Special abilitys, Religeons with Pagoda, Aliences/Potential Aliences,  
