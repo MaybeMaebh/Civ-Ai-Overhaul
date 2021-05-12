@@ -2,15 +2,31 @@ Using a complete maxmin tree is highly unfeasible however a robust scoring syste
 
 Aditionally instead Of carfully whieghting Everything by optimising the algorivum through a Evolution type system whieghts can be tuned.
 
+
 	Seperating out the Game into several smaller problems
 At most steps an floating point feasibility output would be useful.
+Most analisis should on most repetitions only consider the highest scored  options from previus rounds. Additionally an update system where by the most relevent bits of infomation to most choices are taged and so if one changes the score of such an action whould improve.
+
 	Victory Type
-Analysing feasibility of path to different victories as well as the risk of other players winning. Oftern combined with the Micro Goal section to see feasability. Also use variations where possible 
+Analysing feasibility of path to different victories as well as the risk of other players winning. Oftern combined with the Medium Goal section to see feasability
 	Science and Culture
-To measure the feasibility of such victories, progress in the science/culture tree,  Production of science/culture/Tourism(+ that of potential new citrys/districts) as well as Any upcoming Technologies or Civics that might boost capabilitys( near technoligys that enable building consider potential placement. Far off unique just add value), Production of Scientific milestornes/Potential.
+To measure the feasibility of such victories, progress in the science/culture tree,  Production of science/culture/Tourism(+ that of potential new citrys/districts) as well as Any upcoming Technologies or Civics that might boost capabilitys( near technoligys that enable building consider potential placement. Far off unique just add value)
 	Domination
 Look at military strength (seperated by type where possible), Production capabilitys(And potential citys) by type, as Well as Technoligys and Civics comming up/Avalible) and rougth logistics needed to attack each city from eachover to consider potential invasion path.
 	Religeon
 Look at Faith production, a city to city spread map from wich potential spread can be calculated, taking into acount Buildings ect., Potential and existant Technoligys and Civs, Use of Faith to spread religeon
 	Diplomatic
-Look at Diplomatic Favor production, Things to gain good opinion with other players , Victory Points, Diplomatic visobility on other Civ's(including Potential), Special Wonder production, City state suzerainship, and envoy production, Special abilitys, Religeons with Pagoda, Aliences/Potential Aliences,  
+Look at Diplomatic Favor production, Things to gain good opinion with other players , Victory Points, Diplomatic visobility on other Civ's(including Potential), Special Wonder production(and Carbon recapture), City state suzerainship, and envoy production, Special abilitys, Religeons with Pagoda, Aliences/Potential Aliences, Loesing favor(and how to stop it).
+
+	Valuation system
+Gives a value to any reasorce(or production) that can be earned wheighted by Victory type, Current amount of each, High demand current activitys. Possibly tuned by gradient-decent in a simulated version.
+
+	Medium plan
+Oftern using the same data as victory type, As well as using victory type in order to wheight actions. Choising an action that is more directly linked to action.
+	Planing for war
+Ref. Domination, Looking at path to invasions, Tree of invasion paths with assosiated benefits(Use city valuation).  Consider production of units value in citys production que.
+	Settle City
+Check city location within reasable settler distance for reasorces at start, With improvments, District placements. Look at path from citys for settler, Use citys production ranking to assern if it is worth manerfacturing it in a city, consider city in which is worth the most more than the 2nd best option in production que and time to transport. Consider risks of transport(Proximity to enimy/barb sightings or citys/encampments) and path of existing unit(using it's pririty list) or factor in cost of production.
+
+	City production choice
+Rank every choice based on value from valuation system(including losses when building districts wonders ect.), and on the value of the options it may unlock though decreased because of variation that could have come into the game then as well as based on an interpritation from current value and an avarage value and decrease in value from bieng later in the game that they will come of reasorces now. Things involving surrounding citys liek electronics factory (might only be electronics factory)
