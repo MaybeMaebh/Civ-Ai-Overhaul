@@ -1,0 +1,3 @@
+To create a faster and stratigicly effective algorithum for playing Civilisation VI so as someone can play alone with an intresting openent and not have to wait for a long period between turns, Including in games with many AI players and a large map. This is especially important as their is already an intergrated algorithum, However it is very basic and can take severy minuets to process all the AI players.
+
+Using it must be as easy as the built in AI therefore It should intergrate as a mod into Civilisation
